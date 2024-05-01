@@ -38,9 +38,16 @@ input[type="text"] {
 
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #092f58;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #11ac92;
+}
+
+.output {
+    margin-top: 20px;
 }

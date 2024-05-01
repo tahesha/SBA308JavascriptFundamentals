@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SBA 308 Javascript Fundamentals</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Learner Data</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-            <form id="learnerDataForm">
-            <!--Placeholder elements for learner data-->
-        <div class="input-group">
-            <label for="courseId">Course ID:</label>
-            <input type="text" id="courseId" name="courseId" value="451" readonly>
-        </div>
-        <div class="input-group">
-            <label for="assignmentGroupId">Assignment Group ID:</label>
-            <input type="text" id="assignmentGroupId" name="assignmentGroupId" value="12345" readonly>
-    </div>
-<!--Learner submission data will be handled programmatically-->
-<button type="submit">Get Leaner Data</button>
-<form> 
-<div class="output">
-    <!--Output data will be displayed here-->
-</div>
-</div>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>Get Learner Data</h1>
+    <form id="learnerForm">
+      <label for="learnerId">Enter Learner ID:</label>
+      <input type="number" id="learnerId" name="learnerId" required>
+      <button type="submit">Submit</button>
+    </form>
+    <!-- Output will be dynamically generated using JavaScript -->
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
