@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+            <form id="learnerDataForm">
+            <!--Placeholder elements for learner data-->
+        <div class="input-group">
+            <label for="courseId">Course ID:</label>
+            <input type="text" id="courseId" name="courseId" value="451" readonly>
+        </div>
+        <div class="input-group">
+            <label for="assignmentGroupId">Assignment Group ID:</label>
+            <input type="text" id="assignmentGroupId" name="assignmentGroupId" value="12345" readonly>
+    </div>
+<!--Learner submission data will be handled programmatically-->
+<button type="submit">Get Leaner Data</button>
+<form> 
+<div class="output">
+    <!--Output data will be displayed here-->
+</div>
+</div>
+
     <script src="script.js"></script>
 </body>
 </html>
